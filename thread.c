@@ -115,11 +115,11 @@ void create_a( short p)
         {
           processes_a[i].parent = p;
            short tmp = processes_a[p].first_child,
-              cur = processes_a[p].younger_sibling;
+              cur = processes_a[tmp].younger_sibling;
           while (cur not_eq -1)
             cur = processes_a[cur].younger_sibling;
           processes_a[cur].younger_sibling = i;
-          processes_a[i].older_sibling = 3;
+          processes_a[i].older_sibling = processes_a[cur].younger_sibling;
           break;
         }
       }
