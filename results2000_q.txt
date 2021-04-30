@@ -1,0 +1,14 @@
+Linked list implementation
+
+Creation complete
+Destuction complete
+Elapsed time: 0.0 ms
+
+Integers implementation
+
+Creation complete
+
+Destuction complete
+Elapsed time: 0.0 ms
+
+For 2000 processes, struct of ints is faster than linked list by 0.0 ms.

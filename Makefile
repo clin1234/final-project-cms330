@@ -1,16 +1,16 @@
 .PHONY: all
 
 all:
-	gcc -Wall -Wextra -pedantic -std=c17 main.c -o test
+	gcc -Wall -Wextra -pedantic -std=c17 -o test main.c
 	
 debug:
-	gcc -g -Wall -Wextra -pedantic -std=c17 main.c -o test
+	gcc -g -gdwarf-5 -Wall -Wextra -pedantic -std=c17 -o test main.c
 
 simulate_quiet: all
-	./test -q 500 > results500_q.txt
-	./test -q 2000 > results2000_q.txt
-	./test -q 20000 > results20000_q.txt
-	./test -q 32000 > results32000_q.txt
+	./test 500 -q > results500_q.txt
+	./test 2000 -q > results2000_q.txt
+	./test 20000 -q > results20000_q.txt
+	./test 32000 -q > results32000_q.txt
 	
 simulate: all
 	./test 500 > results500.txt

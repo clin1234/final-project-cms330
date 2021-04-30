@@ -1,5 +1,3 @@
-// fyi: Latin comments are sprinkled everywhere.
-
 #include <assert.h>
 #include <iso646.h>
 #include <limits.h>
@@ -10,10 +8,14 @@
 #include <string.h>
 #include <time.h>
 
+// fyi: Latin comments are sprinkled everywhere.
+
 // Global variables
 
 short N; // Maximum number of processes aut maximus numerus processorum
-int highest_process_id = 0; // Highest process ID currently allocated
+/* Highest process ID currently allocated. Used for choosing random parent
+ID to create and destroy*/
+int highest_process_id = 0;
 const int invalid_pid = -1;
 short i; // Index counter aut numerator
 _Bool quiet = false;
@@ -48,6 +50,7 @@ with _a pertain to the integers implementation.
 void create_l(pcb1 *arr, short parent_process_id) {
   struct node *tmp = malloc(sizeof(struct node));
   for (i = 1; i < N; i++) {
+    // Find first available PCB with no parent
     if (arr[i].parent == invalid_pid) {
       highest_process_id = i;
       arr[i].parent = parent_process_id;
@@ -84,7 +87,7 @@ void destroy_l(pcb1 *arr, short p) {
 void create_a(pcb2 *arr, short p) {
   if (arr[p].first_child == invalid_pid) {
     for (i = 1; i < N; i++) {
-      // Find first PCB that does not contain a valid parent
+      // Find first PCB that does not have a child
       if (arr[i].parent == invalid_pid) {
         arr[p].first_child = i;
         arr[i].parent = p;
@@ -97,11 +100,11 @@ void create_a(pcb2 *arr, short p) {
       if (arr[i].parent == invalid_pid) {
         arr[i].parent = p;
         highest_process_id = i;
+        // Backtrack array, finding first encountered PCB with same parent as p
         for (int j = i - 1; j != 0; j--) {
           if (arr[j].parent == p) {
             arr[i].older_sibling = j;
             arr[j].younger_sibling = i;
-            // assert(arr[i].older_sibling == arr[j].younger_sibling);
             goto success;
           }
         }
@@ -114,7 +117,7 @@ void create_a(pcb2 *arr, short p) {
 void destroy_a(pcb2 *arr, short p) {
   if (arr[p].first_child == invalid_pid)
     return;
-  
+
   if (arr[p].first_child != invalid_pid) {
     short child_index = arr[p].first_child;
     arr[child_index].parent = invalid_pid;
@@ -128,13 +131,11 @@ void destroy_a(pcb2 *arr, short p) {
     destroy_a(arr, younger_index);
   }
   if (arr[p].older_sibling != invalid_pid) {
-      short older_index = arr[p].older_sibling;
+    short older_index = arr[p].older_sibling;
     arr[older_index].parent = invalid_pid;
     arr[p].older_sibling = invalid_pid;
     destroy_a(arr, older_index);
   }
-  
-  
 
   // child_index = invalid_pid;
 }
@@ -177,27 +178,33 @@ void print_stats_a(pcb2 *arr) {
 // Haec problema simplex me confundit longiter.
 void init(int argc, char **argv) {
   quiet = false;
-  int arg_index_containing_number = 1;
-  if ((argc == 3) || (argc == 2)) {
-    if (strcmp(argv[1], "-q") == 0) {
-      quiet = true;
-      arg_index_containing_number = 2;
+  if (argc == 3 || argc == 2) {
+    if (argc == 3) {
+      if (strcmp(argv[2], "-q") == 0) {
+        quiet = true;
+      }
     }
-    /* Exhaustive error checking: make sure only positive integers between
-     0 and SHRT_MAX is permitted.*/
-    if (atoi(argv[arg_index_containing_number]) > 4 &&
-        atoi(argv[arg_index_containing_number]) <= SHRT_MAX) {
-      N = atoi(argv[arg_index_containing_number]);
-      return;
+    long short_max = SHRT_MAX;
+    char* end;
+    switch(strtol(argv[1], &end, 10))
+    {
+        case LONG_MIN:
+        case LONG_MAX:
+        case 0: goto fail;
+        default: N = strtol(argv[1], &end, 10);
     }
-    printf("Usage: %s [-q] n\n "
+    if (N < 5 || N > short_max) goto fail;
+    return;
+  }
+  fail:
+    // Otherwise
+    printf("Usage: %s n [-q]\n "
            "\t-q: (Optional) Don't print out details about each PCB "
            "implementation.\n"
            "\t n: a number between 5 and %d to represent the maximum number"
            " of processes.\n",
            argv[0], SHRT_MAX);
     exit(EXIT_FAILURE);
-  }
 }
 
 int main(int b, char **argv) {
@@ -207,6 +214,7 @@ int main(int b, char **argv) {
   pcb2 *processes_a = malloc(N * sizeof(pcb2));
 
   unsigned short i;
+  // Initialize both arrays to sensible defaults
   for (i = 0; i < N; i++) {
     processes_l[i] = pcb1_def;
     processes_a[i] = pcb2_def;
@@ -256,8 +264,7 @@ int main(int b, char **argv) {
   puts("Creation complete\n");
 
   destroy_a(processes_a, 0);
-  if (!quiet)
-    print_stats_a(processes_a);
+  // if (!quiet) print_stats_a(processes_a);
 
   puts("Destuction complete");
   end = time(NULL);

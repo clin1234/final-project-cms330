@@ -1,0 +1,2254 @@
+Linked list implementation
+
+Process 0: parent 0
+	Children: 1 2 3 4 8 9 12 43 63 
+Process 1: parent 0
+	Children: 7 10 54 183 211 
+Process 2: parent 0
+	Children: 5 57 79 209 400 442 
+Process 3: parent 0
+	Children: 6 11 13 19 25 47 86 117 
+Process 4: parent 0
+	Children: 20 
+Process 5: parent 2
+	Children: 18 
+Process 6: parent 3
+	Children: 99 169 
+Process 7: parent 1
+	Children: 16 179 267 
+Process 8: parent 0
+	Children: 119 127 132 208 233 
+Process 9: parent 0
+	Children: 22 294 
+Process 10: parent 1
+	Children: 14 21 23 24 27 92 111 160 223 
+Process 11: parent 3
+Process 12: parent 0
+	Children: 15 26 30 38 44 148 272 306 353 434 457 
+Process 13: parent 3
+	Children: 33 48 192 
+Process 14: parent 10
+	Children: 36 
+Process 15: parent 12
+	Children: 17 31 84 186 
+Process 16: parent 7
+	Children: 58 71 77 124 178 
+Process 17: parent 15
+	Children: 34 35 62 356 477 
+Process 18: parent 5
+Process 19: parent 3
+	Children: 28 40 94 162 182 
+Process 20: parent 4
+	Children: 136 150 191 
+Process 21: parent 10
+	Children: 116 139 350 
+Process 22: parent 9
+Process 23: parent 10
+	Children: 29 32 90 161 221 225 248 295 329 
+Process 24: parent 10
+	Children: 39 105 118 131 
+Process 25: parent 3
+	Children: 81 112 426 
+Process 26: parent 12
+	Children: 72 115 134 342 
+Process 27: parent 10
+	Children: 64 66 287 296 
+Process 28: parent 19
+	Children: 98 184 215 
+Process 29: parent 23
+	Children: 50 89 
+Process 30: parent 12
+	Children: 76 78 176 
+Process 31: parent 15
+	Children: 41 73 101 159 351 
+Process 32: parent 23
+	Children: 53 250 387 437 
+Process 33: parent 13
+	Children: 80 104 173 214 
+Process 34: parent 17
+	Children: 49 201 283 299 405 
+Process 35: parent 17
+	Children: 37 42 232 
+Process 36: parent 14
+	Children: 91 249 
+Process 37: parent 35
+	Children: 61 141 235 
+Process 38: parent 12
+	Children: 96 100 125 
+Process 39: parent 24
+	Children: 55 108 213 333 438 
+Process 40: parent 19
+	Children: 60 133 349 
+Process 41: parent 31
+	Children: 46 140 143 229 
+Process 42: parent 35
+	Children: 45 51 52 168 346 
+Process 43: parent 0
+	Children: 70 120 
+Process 44: parent 12
+Process 45: parent 42
+	Children: 65 305 
+Process 46: parent 41
+	Children: 59 87 416 467 
+Process 47: parent 3
+	Children: 185 236 254 484 
+Process 48: parent 13
+	Children: 56 142 241 493 
+Process 49: parent 34
+	Children: 74 85 135 
+Process 50: parent 29
+	Children: 202 399 
+Process 51: parent 42
+	Children: 69 195 204 393 
+Process 52: parent 42
+	Children: 93 97 107 146 
+Process 53: parent 32
+	Children: 83 
+Process 54: parent 1
+	Children: 121 
+Process 55: parent 39
+	Children: 68 
+Process 56: parent 48
+	Children: 428 
+Process 57: parent 2
+	Children: 110 
+Process 58: parent 16
+	Children: 88 164 386 418 
+Process 59: parent 46
+	Children: 113 198 220 410 424 
+Process 60: parent 40
+Process 61: parent 37
+	Children: 128 
+Process 62: parent 17
+	Children: 122 265 281 
+Process 63: parent 0
+	Children: 67 177 264 370 
+Process 64: parent 27
+	Children: 75 262 
+Process 65: parent 45
+	Children: 368 397 474 
+Process 66: parent 27
+	Children: 231 489 
+Process 67: parent 63
+	Children: 109 194 
+Process 68: parent 55
+	Children: 153 193 375 
+Process 69: parent 51
+	Children: 286 
+Process 70: parent 43
+	Children: 284 341 
+Process 71: parent 16
+	Children: 367 482 
+Process 72: parent 26
+	Children: 123 216 
+Process 73: parent 31
+Process 74: parent 49
+	Children: 147 
+Process 75: parent 64
+	Children: 137 277 300 
+Process 76: parent 30
+	Children: 103 126 443 
+Process 77: parent 16
+	Children: 228 
+Process 78: parent 30
+	Children: 170 323 402 
+Process 79: parent 2
+	Children: 82 326 392 
+Process 80: parent 33
+Process 81: parent 25
+	Children: 167 345 
+Process 82: parent 79
+	Children: 246 
+Process 83: parent 53
+	Children: 289 293 335 
+Process 84: parent 15
+	Children: 166 218 247 320 
+Process 85: parent 49
+	Children: 106 172 314 407 
+Process 86: parent 3
+	Children: 95 260 304 
+Process 87: parent 46
+	Children: 302 369 
+Process 88: parent 58
+Process 89: parent 29
+	Children: 152 292 
+Process 90: parent 23
+	Children: 259 
+Process 91: parent 36
+	Children: 203 
+Process 92: parent 10
+	Children: 102 206 322 
+Process 93: parent 52
+	Children: 269 395 
+Process 94: parent 19
+	Children: 181 431 
+Process 95: parent 86
+	Children: 298 
+Process 96: parent 38
+	Children: 149 
+Process 97: parent 52
+	Children: 197 273 
+Process 98: parent 28
+	Children: 114 130 
+Process 99: parent 6
+	Children: 282 
+Process 100: parent 38
+	Children: 165 190 462 
+Process 101: parent 31
+	Children: 253 430 
+Process 102: parent 92
+Process 103: parent 76
+Process 104: parent 33
+	Children: 200 251 
+Process 105: parent 24
+	Children: 415 
+Process 106: parent 85
+	Children: 129 340 
+Process 107: parent 52
+	Children: 144 
+Process 108: parent 39
+	Children: 138 175 
+Process 109: parent 67
+Process 110: parent 57
+	Children: 343 
+Process 111: parent 10
+	Children: 252 
+Process 112: parent 25
+	Children: 158 187 288 
+Process 113: parent 59
+	Children: 276 
+Process 114: parent 98
+Process 115: parent 26
+Process 116: parent 21
+	Children: 174 316 
+Process 117: parent 3
+	Children: 222 
+Process 118: parent 24
+	Children: 212 381 
+Process 119: parent 8
+Process 120: parent 43
+Process 121: parent 54
+	Children: 312 
+Process 122: parent 62
+	Children: 385 
+Process 123: parent 72
+Process 124: parent 16
+	Children: 354 
+Process 125: parent 38
+	Children: 156 227 
+Process 126: parent 76
+Process 127: parent 8
+	Children: 145 155 163 378 448 
+Process 128: parent 61
+	Children: 240 
+Process 129: parent 106
+Process 130: parent 98
+	Children: 151 423 
+Process 131: parent 24
+Process 132: parent 8
+Process 133: parent 40
+	Children: 450 
+Process 134: parent 26
+	Children: 171 196 
+Process 135: parent 49
+	Children: 492 
+Process 136: parent 20
+	Children: 409 419 
+Process 137: parent 75
+	Children: 210 458 
+Process 138: parent 108
+Process 139: parent 21
+	Children: 205 234 380 
+Process 140: parent 41
+	Children: 154 337 
+Process 141: parent 37
+	Children: 268 485 494 
+Process 142: parent 48
+Process 143: parent 41
+	Children: 475 
+Process 144: parent 107
+	Children: 310 
+Process 145: parent 127
+	Children: 478 
+Process 146: parent 52
+Process 147: parent 74
+Process 148: parent 12
+	Children: 468 
+Process 149: parent 96
+	Children: 180 278 374 429 
+Process 150: parent 20
+	Children: 157 255 
+Process 151: parent 130
+Process 152: parent 89
+	Children: 427 
+Process 153: parent 68
+Process 154: parent 140
+	Children: 270 
+Process 155: parent 127
+	Children: 384 
+Process 156: parent 125
+	Children: 189 
+Process 157: parent 150
+	Children: 382 390 
+Process 158: parent 112
+	Children: 226 432 
+Process 159: parent 31
+Process 160: parent 10
+	Children: 219 274 
+Process 161: parent 23
+	Children: 245 266 
+Process 162: parent 19
+	Children: 290 
+Process 163: parent 127
+Process 164: parent 58
+Process 165: parent 100
+Process 166: parent 84
+	Children: 447 
+Process 167: parent 81
+Process 168: parent 42
+Process 169: parent 6
+Process 170: parent 78
+	Children: 471 
+Process 171: parent 134
+	Children: 279 446 
+Process 172: parent 85
+	Children: 311 441 
+Process 173: parent 33
+	Children: 207 406 
+Process 174: parent 116
+	Children: 497 
+Process 175: parent 108
+	Children: 243 
+Process 176: parent 30
+	Children: 359 
+Process 177: parent 63
+Process 178: parent 16
+Process 179: parent 7
+Process 180: parent 149
+Process 181: parent 94
+Process 182: parent 19
+Process 183: parent 1
+	Children: 331 
+Process 184: parent 28
+	Children: 188 486 
+Process 185: parent 47
+	Children: 307 
+Process 186: parent 15
+	Children: 257 
+Process 187: parent 112
+	Children: 237 
+Process 188: parent 184
+Process 189: parent 156
+	Children: 488 
+Process 190: parent 100
+	Children: 297 
+Process 191: parent 20
+	Children: 328 
+Process 192: parent 13
+Process 193: parent 68
+Process 194: parent 67
+	Children: 230 
+Process 195: parent 51
+	Children: 199 
+Process 196: parent 134
+Process 197: parent 97
+	Children: 224 263 
+Process 198: parent 59
+Process 199: parent 195
+	Children: 217 412 
+Process 200: parent 104
+Process 201: parent 34
+	Children: 379 
+Process 202: parent 50
+	Children: 238 244 
+Process 203: parent 91
+	Children: 242 
+Process 204: parent 51
+Process 205: parent 139
+	Children: 258 303 
+Process 206: parent 92
+	Children: 271 
+Process 207: parent 173
+	Children: 360 
+Process 208: parent 8
+Process 209: parent 2
+	Children: 285 327 
+Process 210: parent 137
+Process 211: parent 1
+	Children: 317 
+Process 212: parent 118
+	Children: 401 
+Process 213: parent 39
+Process 214: parent 33
+	Children: 362 
+Process 215: parent 28
+Process 216: parent 72
+	Children: 376 
+Process 217: parent 199
+	Children: 347 
+Process 218: parent 84
+Process 219: parent 160
+	Children: 280 
+Process 220: parent 59
+	Children: 433 
+Process 221: parent 23
+	Children: 364 404 
+Process 222: parent 117
+	Children: 324 463 
+Process 223: parent 10
+Process 224: parent 197
+	Children: 445 
+Process 225: parent 23
+Process 226: parent 158
+Process 227: parent 125
+	Children: 358 
+Process 228: parent 77
+	Children: 476 
+Process 229: parent 41
+	Children: 308 388 
+Process 230: parent 194
+Process 231: parent 66
+Process 232: parent 35
+Process 233: parent 8
+Process 234: parent 139
+Process 235: parent 37
+	Children: 256 
+Process 236: parent 47
+Process 237: parent 187
+	Children: 239 460 
+Process 238: parent 202
+	Children: 275 
+Process 239: parent 237
+	Children: 336 496 
+Process 240: parent 128
+Process 241: parent 48
+Process 242: parent 203
+Process 243: parent 175
+Process 244: parent 202
+Process 245: parent 161
+Process 246: parent 82
+Process 247: parent 84
+	Children: 408 421 
+Process 248: parent 23
+Process 249: parent 36
+Process 250: parent 32
+	Children: 261 
+Process 251: parent 104
+Process 252: parent 111
+	Children: 373 
+Process 253: parent 101
+Process 254: parent 47
+	Children: 352 
+Process 255: parent 150
+Process 256: parent 235
+	Children: 291 
+Process 257: parent 186
+Process 258: parent 205
+	Children: 394 
+Process 259: parent 90
+	Children: 464 
+Process 260: parent 86
+	Children: 355 
+Process 261: parent 250
+	Children: 301 
+Process 262: parent 64
+Process 263: parent 197
+	Children: 332 
+Process 264: parent 63
+	Children: 465 495 
+Process 265: parent 62
+Process 266: parent 161
+Process 267: parent 7
+	Children: 365 
+Process 268: parent 141
+	Children: 318 321 
+Process 269: parent 93
+	Children: 313 366 
+Process 270: parent 154
+Process 271: parent 206
+Process 272: parent 12
+Process 273: parent 97
+	Children: 319 
+Process 274: parent 160
+Process 275: parent 238
+Process 276: parent 113
+Process 277: parent 75
+Process 278: parent 149
+Process 279: parent 171
+Process 280: parent 219
+	Children: 309 420 
+Process 281: parent 62
+Process 282: parent 99
+Process 283: parent 34
+Process 284: parent 70
+Process 285: parent 209
+Process 286: parent 69
+Process 287: parent 27
+Process 288: parent 112
+	Children: 361 
+Process 289: parent 83
+Process 290: parent 162
+	Children: 487 
+Process 291: parent 256
+Process 292: parent 89
+	Children: 372 470 480 
+Process 293: parent 83
+Process 294: parent 9
+Process 295: parent 23
+	Children: 425 
+Process 296: parent 27
+	Children: 325 490 
+Process 297: parent 190
+Process 298: parent 95
+Process 299: parent 34
+	Children: 363 
+Process 300: parent 75
+Process 301: parent 261
+Process 302: parent 87
+Process 303: parent 205
+Process 304: parent 86
+	Children: 334 
+Process 305: parent 45
+	Children: 315 
+Process 306: parent 12
+Process 307: parent 185
+Process 308: parent 229
+Process 309: parent 280
+	Children: 411 
+Process 310: parent 144
+Process 311: parent 172
+Process 312: parent 121
+Process 313: parent 269
+Process 314: parent 85
+	Children: 330 
+Process 315: parent 305
+Process 316: parent 116
+	Children: 371 
+Process 317: parent 211
+Process 318: parent 268
+Process 319: parent 273
+Process 320: parent 84
+	Children: 422 
+Process 321: parent 268
+	Children: 339 483 
+Process 322: parent 92
+Process 323: parent 78
+Process 324: parent 222
+Process 325: parent 296
+	Children: 357 449 
+Process 326: parent 79
+Process 327: parent 209
+Process 328: parent 191
+	Children: 338 
+Process 329: parent 23
+	Children: 348 
+Process 330: parent 314
+Process 331: parent 183
+	Children: 472 
+Process 332: parent 263
+Process 333: parent 39
+Process 334: parent 304
+Process 335: parent 83
+Process 336: parent 239
+Process 337: parent 140
+Process 338: parent 328
+Process 339: parent 321
+	Children: 344 
+Process 340: parent 106
+Process 341: parent 70
+Process 342: parent 26
+Process 343: parent 110
+	Children: 440 
+Process 344: parent 339
+Process 345: parent 81
+	Children: 383 
+Process 346: parent 42
+	Children: 377 403 
+Process 347: parent 217
+	Children: 414 
+Process 348: parent 329
+Process 349: parent 40
+Process 350: parent 21
+	Children: 389 
+Process 351: parent 31
+Process 352: parent 254
+	Children: 417 
+Process 353: parent 12
+Process 354: parent 124
+Process 355: parent 260
+Process 356: parent 17
+	Children: 396 
+Process 357: parent 325
+	Children: 444 
+Process 358: parent 227
+Process 359: parent 176
+Process 360: parent 207
+Process 361: parent 288
+Process 362: parent 214
+Process 363: parent 299
+Process 364: parent 221
+Process 365: parent 267
+Process 366: parent 269
+	Children: 439 
+Process 367: parent 71
+Process 368: parent 65
+Process 369: parent 87
+Process 370: parent 63
+Process 371: parent 316
+Process 372: parent 292
+	Children: 451 473 
+Process 373: parent 252
+Process 374: parent 149
+	Children: 391 
+Process 375: parent 68
+Process 376: parent 216
+Process 377: parent 346
+Process 378: parent 127
+Process 379: parent 201
+	Children: 479 
+Process 380: parent 139
+	Children: 461 
+Process 381: parent 118
+Process 382: parent 157
+	Children: 413 
+Process 383: parent 345
+Process 384: parent 155
+Process 385: parent 122
+	Children: 398 
+Process 386: parent 58
+Process 387: parent 32
+Process 388: parent 229
+Process 389: parent 350
+Process 390: parent 157
+Process 391: parent 374
+Process 392: parent 79
+Process 393: parent 51
+Process 394: parent 258
+Process 395: parent 93
+Process 396: parent 356
+Process 397: parent 65
+	Children: 498 
+Process 398: parent 385
+	Children: 459 
+Process 399: parent 50
+Process 400: parent 2
+	Children: 452 
+Process 401: parent 212
+Process 402: parent 78
+Process 403: parent 346
+Process 404: parent 221
+Process 405: parent 34
+	Children: 466 
+Process 406: parent 173
+Process 407: parent 85
+Process 408: parent 247
+Process 409: parent 136
+Process 410: parent 59
+Process 411: parent 309
+Process 412: parent 199
+Process 413: parent 382
+Process 414: parent 347
+Process 415: parent 105
+Process 416: parent 46
+Process 417: parent 352
+	Children: 435 
+Process 418: parent 58
+Process 419: parent 136
+Process 420: parent 280
+	Children: 456 
+Process 421: parent 247
+Process 422: parent 320
+Process 423: parent 130
+	Children: 436 455 
+Process 424: parent 59
+Process 425: parent 295
+Process 426: parent 25
+	Children: 469 
+Process 427: parent 152
+Process 428: parent 56
+Process 429: parent 149
+	Children: 454 
+Process 430: parent 101
+Process 431: parent 94
+Process 432: parent 158
+Process 433: parent 220
+	Children: 481 
+Process 434: parent 12
+Process 435: parent 417
+Process 436: parent 423
+Process 437: parent 32
+Process 438: parent 39
+Process 439: parent 366
+Process 440: parent 343
+Process 441: parent 172
+Process 442: parent 2
+Process 443: parent 76
+Process 444: parent 357
+	Children: 453 
+Process 445: parent 224
+Process 446: parent 171
+Process 447: parent 166
+Process 448: parent 127
+Process 449: parent 325
+Process 450: parent 133
+Process 451: parent 372
+Process 452: parent 400
+Process 453: parent 444
+Process 454: parent 429
+Process 455: parent 423
+Process 456: parent 420
+Process 457: parent 12
+Process 458: parent 137
+Process 459: parent 398
+Process 460: parent 237
+Process 461: parent 380
+Process 462: parent 100
+Process 463: parent 222
+	Children: 499 
+Process 464: parent 259
+	Children: 491 
+Process 465: parent 264
+Process 466: parent 405
+Process 467: parent 46
+Process 468: parent 148
+Process 469: parent 426
+Process 470: parent 292
+Process 471: parent 170
+Process 472: parent 331
+Process 473: parent 372
+Process 474: parent 65
+Process 475: parent 143
+Process 476: parent 228
+Process 477: parent 17
+Process 478: parent 145
+Process 479: parent 379
+Process 480: parent 292
+Process 481: parent 433
+Process 482: parent 71
+Process 483: parent 321
+Process 484: parent 47
+Process 485: parent 141
+Process 486: parent 184
+Process 487: parent 290
+Process 488: parent 189
+Process 489: parent 66
+Process 490: parent 296
+Process 491: parent 464
+Process 492: parent 135
+Process 493: parent 48
+Process 494: parent 141
+Process 495: parent 264
+Process 496: parent 239
+Process 497: parent 174
+Process 498: parent 397
+Process 499: parent 463
+Creation complete
+Destuction complete
+Elapsed time: 0.0 ms
+
+Integers implementation
+
+Process 0: parent 0
+	Immediate children: 1 2 3 4 8 9 12 43 63 
+	First child: 1
+Process 1: parent 0
+	Immediate children: 7 10 54 183 211 
+	First child: 7
+	Younger sibling: 2
+Process 2: parent 0
+	Immediate children: 5 57 79 209 400 442 
+	First child: 5
+	Younger sibling: 3
+	Older sibling: 1
+Process 3: parent 0
+	Immediate children: 6 11 13 19 25 47 86 117 
+	First child: 6
+	Younger sibling: 4
+	Older sibling: 2
+Process 4: parent 0
+	Immediate children: 20 
+	First child: 20
+	Younger sibling: 8
+	Older sibling: 3
+Process 5: parent 2
+	Immediate children: 18 
+	First child: 18
+	Younger sibling: 57
+Process 6: parent 3
+	Immediate children: 99 169 
+	First child: 99
+	Younger sibling: 11
+Process 7: parent 1
+	Immediate children: 16 179 267 
+	First child: 16
+	Younger sibling: 10
+Process 8: parent 0
+	Immediate children: 119 127 132 208 233 
+	First child: 119
+	Younger sibling: 9
+	Older sibling: 4
+Process 9: parent 0
+	Immediate children: 22 294 
+	First child: 22
+	Younger sibling: 12
+	Older sibling: 8
+Process 10: parent 1
+	Immediate children: 14 21 23 24 27 92 111 160 223 
+	First child: 14
+	Younger sibling: 54
+	Older sibling: 7
+Process 11: parent 3
+	Younger sibling: 13
+	Older sibling: 6
+Process 12: parent 0
+	Immediate children: 15 26 30 38 44 148 272 306 353 434 457 
+	First child: 15
+	Younger sibling: 43
+	Older sibling: 9
+Process 13: parent 3
+	Immediate children: 33 48 192 
+	First child: 33
+	Younger sibling: 19
+	Older sibling: 11
+Process 14: parent 10
+	Immediate children: 36 
+	First child: 36
+	Younger sibling: 21
+Process 15: parent 12
+	Immediate children: 17 31 84 186 
+	First child: 17
+	Younger sibling: 26
+Process 16: parent 7
+	Immediate children: 58 71 77 124 178 
+	First child: 58
+	Younger sibling: 179
+Process 17: parent 15
+	Immediate children: 34 35 62 356 477 
+	First child: 34
+	Younger sibling: 31
+Process 18: parent 5
+Process 19: parent 3
+	Immediate children: 28 40 94 162 182 
+	First child: 28
+	Younger sibling: 25
+	Older sibling: 13
+Process 20: parent 4
+	Immediate children: 136 150 191 
+	First child: 136
+Process 21: parent 10
+	Immediate children: 116 139 350 
+	First child: 116
+	Younger sibling: 23
+	Older sibling: 14
+Process 22: parent 9
+	Younger sibling: 294
+Process 23: parent 10
+	Immediate children: 29 32 90 161 221 225 248 295 329 
+	First child: 29
+	Younger sibling: 24
+	Older sibling: 21
+Process 24: parent 10
+	Immediate children: 39 105 118 131 
+	First child: 39
+	Younger sibling: 27
+	Older sibling: 23
+Process 25: parent 3
+	Immediate children: 81 112 426 
+	First child: 81
+	Younger sibling: 47
+	Older sibling: 19
+Process 26: parent 12
+	Immediate children: 72 115 134 342 
+	First child: 72
+	Younger sibling: 30
+	Older sibling: 15
+Process 27: parent 10
+	Immediate children: 64 66 287 296 
+	First child: 64
+	Younger sibling: 92
+	Older sibling: 24
+Process 28: parent 19
+	Immediate children: 98 184 215 
+	First child: 98
+	Younger sibling: 40
+Process 29: parent 23
+	Immediate children: 50 89 
+	First child: 50
+	Younger sibling: 32
+Process 30: parent 12
+	Immediate children: 76 78 176 
+	First child: 76
+	Younger sibling: 38
+	Older sibling: 26
+Process 31: parent 15
+	Immediate children: 41 73 101 159 351 
+	First child: 41
+	Younger sibling: 84
+	Older sibling: 17
+Process 32: parent 23
+	Immediate children: 53 250 387 437 
+	First child: 53
+	Younger sibling: 90
+	Older sibling: 29
+Process 33: parent 13
+	Immediate children: 80 104 173 214 
+	First child: 80
+	Younger sibling: 48
+Process 34: parent 17
+	Immediate children: 49 201 283 299 405 
+	First child: 49
+	Younger sibling: 35
+Process 35: parent 17
+	Immediate children: 37 42 232 
+	First child: 37
+	Younger sibling: 62
+	Older sibling: 34
+Process 36: parent 14
+	Immediate children: 91 249 
+	First child: 91
+Process 37: parent 35
+	Immediate children: 61 141 235 
+	First child: 61
+	Younger sibling: 42
+Process 38: parent 12
+	Immediate children: 96 100 125 
+	First child: 96
+	Younger sibling: 44
+	Older sibling: 30
+Process 39: parent 24
+	Immediate children: 55 108 213 333 438 
+	First child: 55
+	Younger sibling: 105
+Process 40: parent 19
+	Immediate children: 60 133 349 
+	First child: 60
+	Younger sibling: 94
+	Older sibling: 28
+Process 41: parent 31
+	Immediate children: 46 140 143 229 
+	First child: 46
+	Younger sibling: 73
+Process 42: parent 35
+	Immediate children: 45 51 52 168 346 
+	First child: 45
+	Younger sibling: 232
+	Older sibling: 37
+Process 43: parent 0
+	Immediate children: 70 120 
+	First child: 70
+	Younger sibling: 63
+	Older sibling: 12
+Process 44: parent 12
+	Younger sibling: 148
+	Older sibling: 38
+Process 45: parent 42
+	Immediate children: 65 305 
+	First child: 65
+	Younger sibling: 51
+Process 46: parent 41
+	Immediate children: 59 87 416 467 
+	First child: 59
+	Younger sibling: 140
+Process 47: parent 3
+	Immediate children: 185 236 254 484 
+	First child: 185
+	Younger sibling: 86
+	Older sibling: 25
+Process 48: parent 13
+	Immediate children: 56 142 241 493 
+	First child: 56
+	Younger sibling: 192
+	Older sibling: 33
+Process 49: parent 34
+	Immediate children: 74 85 135 
+	First child: 74
+	Younger sibling: 201
+Process 50: parent 29
+	Immediate children: 202 399 
+	First child: 202
+	Younger sibling: 89
+Process 51: parent 42
+	Immediate children: 69 195 204 393 
+	First child: 69
+	Younger sibling: 52
+	Older sibling: 45
+Process 52: parent 42
+	Immediate children: 93 97 107 146 
+	First child: 93
+	Younger sibling: 168
+	Older sibling: 51
+Process 53: parent 32
+	Immediate children: 83 
+	First child: 83
+	Younger sibling: 250
+Process 54: parent 1
+	Immediate children: 121 
+	First child: 121
+	Younger sibling: 183
+	Older sibling: 10
+Process 55: parent 39
+	Immediate children: 68 
+	First child: 68
+	Younger sibling: 108
+Process 56: parent 48
+	Immediate children: 428 
+	First child: 428
+	Younger sibling: 142
+Process 57: parent 2
+	Immediate children: 110 
+	First child: 110
+	Younger sibling: 79
+	Older sibling: 5
+Process 58: parent 16
+	Immediate children: 88 164 386 418 
+	First child: 88
+	Younger sibling: 71
+Process 59: parent 46
+	Immediate children: 113 198 220 410 424 
+	First child: 113
+	Younger sibling: 87
+Process 60: parent 40
+	Younger sibling: 133
+Process 61: parent 37
+	Immediate children: 128 
+	First child: 128
+	Younger sibling: 141
+Process 62: parent 17
+	Immediate children: 122 265 281 
+	First child: 122
+	Younger sibling: 356
+	Older sibling: 35
+Process 63: parent 0
+	Immediate children: 67 177 264 370 
+	First child: 67
+	Older sibling: 43
+Process 64: parent 27
+	Immediate children: 75 262 
+	First child: 75
+	Younger sibling: 66
+Process 65: parent 45
+	Immediate children: 368 397 474 
+	First child: 368
+	Younger sibling: 305
+Process 66: parent 27
+	Immediate children: 231 489 
+	First child: 231
+	Younger sibling: 287
+	Older sibling: 64
+Process 67: parent 63
+	Immediate children: 109 194 
+	First child: 109
+	Younger sibling: 177
+Process 68: parent 55
+	Immediate children: 153 193 375 
+	First child: 153
+Process 69: parent 51
+	Immediate children: 286 
+	First child: 286
+	Younger sibling: 195
+Process 70: parent 43
+	Immediate children: 284 341 
+	First child: 284
+	Younger sibling: 120
+Process 71: parent 16
+	Immediate children: 367 482 
+	First child: 367
+	Younger sibling: 77
+	Older sibling: 58
+Process 72: parent 26
+	Immediate children: 123 216 
+	First child: 123
+	Younger sibling: 115
+Process 73: parent 31
+	Younger sibling: 101
+	Older sibling: 41
+Process 74: parent 49
+	Immediate children: 147 
+	First child: 147
+	Younger sibling: 85
+Process 75: parent 64
+	Immediate children: 137 277 300 
+	First child: 137
+	Younger sibling: 262
+Process 76: parent 30
+	Immediate children: 103 126 443 
+	First child: 103
+	Younger sibling: 78
+Process 77: parent 16
+	Immediate children: 228 
+	First child: 228
+	Younger sibling: 124
+	Older sibling: 71
+Process 78: parent 30
+	Immediate children: 170 323 402 
+	First child: 170
+	Younger sibling: 176
+	Older sibling: 76
+Process 79: parent 2
+	Immediate children: 82 326 392 
+	First child: 82
+	Younger sibling: 209
+	Older sibling: 57
+Process 80: parent 33
+	Younger sibling: 104
+Process 81: parent 25
+	Immediate children: 167 345 
+	First child: 167
+	Younger sibling: 112
+Process 82: parent 79
+	Immediate children: 246 
+	First child: 246
+	Younger sibling: 326
+Process 83: parent 53
+	Immediate children: 289 293 335 
+	First child: 289
+Process 84: parent 15
+	Immediate children: 166 218 247 320 
+	First child: 166
+	Younger sibling: 186
+	Older sibling: 31
+Process 85: parent 49
+	Immediate children: 106 172 314 407 
+	First child: 106
+	Younger sibling: 135
+	Older sibling: 74
+Process 86: parent 3
+	Immediate children: 95 260 304 
+	First child: 95
+	Younger sibling: 117
+	Older sibling: 47
+Process 87: parent 46
+	Immediate children: 302 369 
+	First child: 302
+	Younger sibling: 416
+	Older sibling: 59
+Process 88: parent 58
+	Younger sibling: 164
+Process 89: parent 29
+	Immediate children: 152 292 
+	First child: 152
+	Older sibling: 50
+Process 90: parent 23
+	Immediate children: 259 
+	First child: 259
+	Younger sibling: 161
+	Older sibling: 32
+Process 91: parent 36
+	Immediate children: 203 
+	First child: 203
+	Younger sibling: 249
+Process 92: parent 10
+	Immediate children: 102 206 322 
+	First child: 102
+	Younger sibling: 111
+	Older sibling: 27
+Process 93: parent 52
+	Immediate children: 269 395 
+	First child: 269
+	Younger sibling: 97
+Process 94: parent 19
+	Immediate children: 181 431 
+	First child: 181
+	Younger sibling: 162
+	Older sibling: 40
+Process 95: parent 86
+	Immediate children: 298 
+	First child: 298
+	Younger sibling: 260
+Process 96: parent 38
+	Immediate children: 149 
+	First child: 149
+	Younger sibling: 100
+Process 97: parent 52
+	Immediate children: 197 273 
+	First child: 197
+	Younger sibling: 107
+	Older sibling: 93
+Process 98: parent 28
+	Immediate children: 114 130 
+	First child: 114
+	Younger sibling: 184
+Process 99: parent 6
+	Immediate children: 282 
+	First child: 282
+	Younger sibling: 169
+Process 100: parent 38
+	Immediate children: 165 190 462 
+	First child: 165
+	Younger sibling: 125
+	Older sibling: 96
+Process 101: parent 31
+	Immediate children: 253 430 
+	First child: 253
+	Younger sibling: 159
+	Older sibling: 73
+Process 102: parent 92
+	Younger sibling: 206
+Process 103: parent 76
+	Younger sibling: 126
+Process 104: parent 33
+	Immediate children: 200 251 
+	First child: 200
+	Younger sibling: 173
+	Older sibling: 80
+Process 105: parent 24
+	Immediate children: 415 
+	First child: 415
+	Younger sibling: 118
+	Older sibling: 39
+Process 106: parent 85
+	Immediate children: 129 340 
+	First child: 129
+	Younger sibling: 172
+Process 107: parent 52
+	Immediate children: 144 
+	First child: 144
+	Younger sibling: 146
+	Older sibling: 97
+Process 108: parent 39
+	Immediate children: 138 175 
+	First child: 138
+	Younger sibling: 213
+	Older sibling: 55
+Process 109: parent 67
+	Younger sibling: 194
+Process 110: parent 57
+	Immediate children: 343 
+	First child: 343
+Process 111: parent 10
+	Immediate children: 252 
+	First child: 252
+	Younger sibling: 160
+	Older sibling: 92
+Process 112: parent 25
+	Immediate children: 158 187 288 
+	First child: 158
+	Younger sibling: 426
+	Older sibling: 81
+Process 113: parent 59
+	Immediate children: 276 
+	First child: 276
+	Younger sibling: 198
+Process 114: parent 98
+	Younger sibling: 130
+Process 115: parent 26
+	Younger sibling: 134
+	Older sibling: 72
+Process 116: parent 21
+	Immediate children: 174 316 
+	First child: 174
+	Younger sibling: 139
+Process 117: parent 3
+	Immediate children: 222 
+	First child: 222
+	Older sibling: 86
+Process 118: parent 24
+	Immediate children: 212 381 
+	First child: 212
+	Younger sibling: 131
+	Older sibling: 105
+Process 119: parent 8
+	Younger sibling: 127
+Process 120: parent 43
+	Older sibling: 70
+Process 121: parent 54
+	Immediate children: 312 
+	First child: 312
+Process 122: parent 62
+	Immediate children: 385 
+	First child: 385
+	Younger sibling: 265
+Process 123: parent 72
+	Younger sibling: 216
+Process 124: parent 16
+	Immediate children: 354 
+	First child: 354
+	Younger sibling: 178
+	Older sibling: 77
+Process 125: parent 38
+	Immediate children: 156 227 
+	First child: 156
+	Older sibling: 100
+Process 126: parent 76
+	Younger sibling: 443
+	Older sibling: 103
+Process 127: parent 8
+	Immediate children: 145 155 163 378 448 
+	First child: 145
+	Younger sibling: 132
+	Older sibling: 119
+Process 128: parent 61
+	Immediate children: 240 
+	First child: 240
+Process 129: parent 106
+	Younger sibling: 340
+Process 130: parent 98
+	Immediate children: 151 423 
+	First child: 151
+	Older sibling: 114
+Process 131: parent 24
+	Older sibling: 118
+Process 132: parent 8
+	Younger sibling: 208
+	Older sibling: 127
+Process 133: parent 40
+	Immediate children: 450 
+	First child: 450
+	Younger sibling: 349
+	Older sibling: 60
+Process 134: parent 26
+	Immediate children: 171 196 
+	First child: 171
+	Younger sibling: 342
+	Older sibling: 115
+Process 135: parent 49
+	Immediate children: 492 
+	First child: 492
+	Older sibling: 85
+Process 136: parent 20
+	Immediate children: 409 419 
+	First child: 409
+	Younger sibling: 150
+Process 137: parent 75
+	Immediate children: 210 458 
+	First child: 210
+	Younger sibling: 277
+Process 138: parent 108
+	Younger sibling: 175
+Process 139: parent 21
+	Immediate children: 205 234 380 
+	First child: 205
+	Younger sibling: 350
+	Older sibling: 116
+Process 140: parent 41
+	Immediate children: 154 337 
+	First child: 154
+	Younger sibling: 143
+	Older sibling: 46
+Process 141: parent 37
+	Immediate children: 268 485 494 
+	First child: 268
+	Younger sibling: 235
+	Older sibling: 61
+Process 142: parent 48
+	Younger sibling: 241
+	Older sibling: 56
+Process 143: parent 41
+	Immediate children: 475 
+	First child: 475
+	Younger sibling: 229
+	Older sibling: 140
+Process 144: parent 107
+	Immediate children: 310 
+	First child: 310
+Process 145: parent 127
+	Immediate children: 478 
+	First child: 478
+	Younger sibling: 155
+Process 146: parent 52
+	Older sibling: 107
+Process 147: parent 74
+Process 148: parent 12
+	Immediate children: 468 
+	First child: 468
+	Younger sibling: 272
+	Older sibling: 44
+Process 149: parent 96
+	Immediate children: 180 278 374 429 
+	First child: 180
+Process 150: parent 20
+	Immediate children: 157 255 
+	First child: 157
+	Younger sibling: 191
+	Older sibling: 136
+Process 151: parent 130
+	Younger sibling: 423
+Process 152: parent 89
+	Immediate children: 427 
+	First child: 427
+	Younger sibling: 292
+Process 153: parent 68
+	Younger sibling: 193
+Process 154: parent 140
+	Immediate children: 270 
+	First child: 270
+	Younger sibling: 337
+Process 155: parent 127
+	Immediate children: 384 
+	First child: 384
+	Younger sibling: 163
+	Older sibling: 145
+Process 156: parent 125
+	Immediate children: 189 
+	First child: 189
+	Younger sibling: 227
+Process 157: parent 150
+	Immediate children: 382 390 
+	First child: 382
+	Younger sibling: 255
+Process 158: parent 112
+	Immediate children: 226 432 
+	First child: 226
+	Younger sibling: 187
+Process 159: parent 31
+	Younger sibling: 351
+	Older sibling: 101
+Process 160: parent 10
+	Immediate children: 219 274 
+	First child: 219
+	Younger sibling: 223
+	Older sibling: 111
+Process 161: parent 23
+	Immediate children: 245 266 
+	First child: 245
+	Younger sibling: 221
+	Older sibling: 90
+Process 162: parent 19
+	Immediate children: 290 
+	First child: 290
+	Younger sibling: 182
+	Older sibling: 94
+Process 163: parent 127
+	Younger sibling: 378
+	Older sibling: 155
+Process 164: parent 58
+	Younger sibling: 386
+	Older sibling: 88
+Process 165: parent 100
+	Younger sibling: 190
+Process 166: parent 84
+	Immediate children: 447 
+	First child: 447
+	Younger sibling: 218
+Process 167: parent 81
+	Younger sibling: 345
+Process 168: parent 42
+	Younger sibling: 346
+	Older sibling: 52
+Process 169: parent 6
+	Older sibling: 99
+Process 170: parent 78
+	Immediate children: 471 
+	First child: 471
+	Younger sibling: 323
+Process 171: parent 134
+	Immediate children: 279 446 
+	First child: 279
+	Younger sibling: 196
+Process 172: parent 85
+	Immediate children: 311 441 
+	First child: 311
+	Younger sibling: 314
+	Older sibling: 106
+Process 173: parent 33
+	Immediate children: 207 406 
+	First child: 207
+	Younger sibling: 214
+	Older sibling: 104
+Process 174: parent 116
+	Immediate children: 497 
+	First child: 497
+	Younger sibling: 316
+Process 175: parent 108
+	Immediate children: 243 
+	First child: 243
+	Older sibling: 138
+Process 176: parent 30
+	Immediate children: 359 
+	First child: 359
+	Older sibling: 78
+Process 177: parent 63
+	Younger sibling: 264
+	Older sibling: 67
+Process 178: parent 16
+	Older sibling: 124
+Process 179: parent 7
+	Younger sibling: 267
+	Older sibling: 16
+Process 180: parent 149
+	Younger sibling: 278
+Process 181: parent 94
+	Younger sibling: 431
+Process 182: parent 19
+	Older sibling: 162
+Process 183: parent 1
+	Immediate children: 331 
+	First child: 331
+	Younger sibling: 211
+	Older sibling: 54
+Process 184: parent 28
+	Immediate children: 188 486 
+	First child: 188
+	Younger sibling: 215
+	Older sibling: 98
+Process 185: parent 47
+	Immediate children: 307 
+	First child: 307
+	Younger sibling: 236
+Process 186: parent 15
+	Immediate children: 257 
+	First child: 257
+	Older sibling: 84
+Process 187: parent 112
+	Immediate children: 237 
+	First child: 237
+	Younger sibling: 288
+	Older sibling: 158
+Process 188: parent 184
+	Younger sibling: 486
+Process 189: parent 156
+	Immediate children: 488 
+	First child: 488
+Process 190: parent 100
+	Immediate children: 297 
+	First child: 297
+	Younger sibling: 462
+	Older sibling: 165
+Process 191: parent 20
+	Immediate children: 328 
+	First child: 328
+	Older sibling: 150
+Process 192: parent 13
+	Older sibling: 48
+Process 193: parent 68
+	Younger sibling: 375
+	Older sibling: 153
+Process 194: parent 67
+	Immediate children: 230 
+	First child: 230
+	Older sibling: 109
+Process 195: parent 51
+	Immediate children: 199 
+	First child: 199
+	Younger sibling: 204
+	Older sibling: 69
+Process 196: parent 134
+	Older sibling: 171
+Process 197: parent 97
+	Immediate children: 224 263 
+	First child: 224
+	Younger sibling: 273
+Process 198: parent 59
+	Younger sibling: 220
+	Older sibling: 113
+Process 199: parent 195
+	Immediate children: 217 412 
+	First child: 217
+Process 200: parent 104
+	Younger sibling: 251
+Process 201: parent 34
+	Immediate children: 379 
+	First child: 379
+	Younger sibling: 283
+	Older sibling: 49
+Process 202: parent 50
+	Immediate children: 238 244 
+	First child: 238
+	Younger sibling: 399
+Process 203: parent 91
+	Immediate children: 242 
+	First child: 242
+Process 204: parent 51
+	Younger sibling: 393
+	Older sibling: 195
+Process 205: parent 139
+	Immediate children: 258 303 
+	First child: 258
+	Younger sibling: 234
+Process 206: parent 92
+	Immediate children: 271 
+	First child: 271
+	Younger sibling: 322
+	Older sibling: 102
+Process 207: parent 173
+	Immediate children: 360 
+	First child: 360
+	Younger sibling: 406
+Process 208: parent 8
+	Younger sibling: 233
+	Older sibling: 132
+Process 209: parent 2
+	Immediate children: 285 327 
+	First child: 285
+	Younger sibling: 400
+	Older sibling: 79
+Process 210: parent 137
+	Younger sibling: 458
+Process 211: parent 1
+	Immediate children: 317 
+	First child: 317
+	Older sibling: 183
+Process 212: parent 118
+	Immediate children: 401 
+	First child: 401
+	Younger sibling: 381
+Process 213: parent 39
+	Younger sibling: 333
+	Older sibling: 108
+Process 214: parent 33
+	Immediate children: 362 
+	First child: 362
+	Older sibling: 173
+Process 215: parent 28
+	Older sibling: 184
+Process 216: parent 72
+	Immediate children: 376 
+	First child: 376
+	Older sibling: 123
+Process 217: parent 199
+	Immediate children: 347 
+	First child: 347
+	Younger sibling: 412
+Process 218: parent 84
+	Younger sibling: 247
+	Older sibling: 166
+Process 219: parent 160
+	Immediate children: 280 
+	First child: 280
+	Younger sibling: 274
+Process 220: parent 59
+	Immediate children: 433 
+	First child: 433
+	Younger sibling: 410
+	Older sibling: 198
+Process 221: parent 23
+	Immediate children: 364 404 
+	First child: 364
+	Younger sibling: 225
+	Older sibling: 161
+Process 222: parent 117
+	Immediate children: 324 463 
+	First child: 324
+Process 223: parent 10
+	Older sibling: 160
+Process 224: parent 197
+	Immediate children: 445 
+	First child: 445
+	Younger sibling: 263
+Process 225: parent 23
+	Younger sibling: 248
+	Older sibling: 221
+Process 226: parent 158
+	Younger sibling: 432
+Process 227: parent 125
+	Immediate children: 358 
+	First child: 358
+	Older sibling: 156
+Process 228: parent 77
+	Immediate children: 476 
+	First child: 476
+Process 229: parent 41
+	Immediate children: 308 388 
+	First child: 308
+	Older sibling: 143
+Process 230: parent 194
+Process 231: parent 66
+	Younger sibling: 489
+Process 232: parent 35
+	Older sibling: 42
+Process 233: parent 8
+	Older sibling: 208
+Process 234: parent 139
+	Younger sibling: 380
+	Older sibling: 205
+Process 235: parent 37
+	Immediate children: 256 
+	First child: 256
+	Older sibling: 141
+Process 236: parent 47
+	Younger sibling: 254
+	Older sibling: 185
+Process 237: parent 187
+	Immediate children: 239 460 
+	First child: 239
+Process 238: parent 202
+	Immediate children: 275 
+	First child: 275
+	Younger sibling: 244
+Process 239: parent 237
+	Immediate children: 336 496 
+	First child: 336
+	Younger sibling: 460
+Process 240: parent 128
+Process 241: parent 48
+	Younger sibling: 493
+	Older sibling: 142
+Process 242: parent 203
+Process 243: parent 175
+Process 244: parent 202
+	Older sibling: 238
+Process 245: parent 161
+	Younger sibling: 266
+Process 246: parent 82
+Process 247: parent 84
+	Immediate children: 408 421 
+	First child: 408
+	Younger sibling: 320
+	Older sibling: 218
+Process 248: parent 23
+	Younger sibling: 295
+	Older sibling: 225
+Process 249: parent 36
+	Older sibling: 91
+Process 250: parent 32
+	Immediate children: 261 
+	First child: 261
+	Younger sibling: 387
+	Older sibling: 53
+Process 251: parent 104
+	Older sibling: 200
+Process 252: parent 111
+	Immediate children: 373 
+	First child: 373
+Process 253: parent 101
+	Younger sibling: 430
+Process 254: parent 47
+	Immediate children: 352 
+	First child: 352
+	Younger sibling: 484
+	Older sibling: 236
+Process 255: parent 150
+	Older sibling: 157
+Process 256: parent 235
+	Immediate children: 291 
+	First child: 291
+Process 257: parent 186
+Process 258: parent 205
+	Immediate children: 394 
+	First child: 394
+	Younger sibling: 303
+Process 259: parent 90
+	Immediate children: 464 
+	First child: 464
+Process 260: parent 86
+	Immediate children: 355 
+	First child: 355
+	Younger sibling: 304
+	Older sibling: 95
+Process 261: parent 250
+	Immediate children: 301 
+	First child: 301
+Process 262: parent 64
+	Older sibling: 75
+Process 263: parent 197
+	Immediate children: 332 
+	First child: 332
+	Older sibling: 224
+Process 264: parent 63
+	Immediate children: 465 495 
+	First child: 465
+	Younger sibling: 370
+	Older sibling: 177
+Process 265: parent 62
+	Younger sibling: 281
+	Older sibling: 122
+Process 266: parent 161
+	Older sibling: 245
+Process 267: parent 7
+	Immediate children: 365 
+	First child: 365
+	Older sibling: 179
+Process 268: parent 141
+	Immediate children: 318 321 
+	First child: 318
+	Younger sibling: 485
+Process 269: parent 93
+	Immediate children: 313 366 
+	First child: 313
+	Younger sibling: 395
+Process 270: parent 154
+Process 271: parent 206
+Process 272: parent 12
+	Younger sibling: 306
+	Older sibling: 148
+Process 273: parent 97
+	Immediate children: 319 
+	First child: 319
+	Older sibling: 197
+Process 274: parent 160
+	Older sibling: 219
+Process 275: parent 238
+Process 276: parent 113
+Process 277: parent 75
+	Younger sibling: 300
+	Older sibling: 137
+Process 278: parent 149
+	Younger sibling: 374
+	Older sibling: 180
+Process 279: parent 171
+	Younger sibling: 446
+Process 280: parent 219
+	Immediate children: 309 420 
+	First child: 309
+Process 281: parent 62
+	Older sibling: 265
+Process 282: parent 99
+Process 283: parent 34
+	Younger sibling: 299
+	Older sibling: 201
+Process 284: parent 70
+	Younger sibling: 341
+Process 285: parent 209
+	Younger sibling: 327
+Process 286: parent 69
+Process 287: parent 27
+	Younger sibling: 296
+	Older sibling: 66
+Process 288: parent 112
+	Immediate children: 361 
+	First child: 361
+	Older sibling: 187
+Process 289: parent 83
+	Younger sibling: 293
+Process 290: parent 162
+	Immediate children: 487 
+	First child: 487
+Process 291: parent 256
+Process 292: parent 89
+	Immediate children: 372 470 480 
+	First child: 372
+	Older sibling: 152
+Process 293: parent 83
+	Younger sibling: 335
+	Older sibling: 289
+Process 294: parent 9
+	Older sibling: 22
+Process 295: parent 23
+	Immediate children: 425 
+	First child: 425
+	Younger sibling: 329
+	Older sibling: 248
+Process 296: parent 27
+	Immediate children: 325 490 
+	First child: 325
+	Older sibling: 287
+Process 297: parent 190
+Process 298: parent 95
+Process 299: parent 34
+	Immediate children: 363 
+	First child: 363
+	Younger sibling: 405
+	Older sibling: 283
+Process 300: parent 75
+	Older sibling: 277
+Process 301: parent 261
+Process 302: parent 87
+	Younger sibling: 369
+Process 303: parent 205
+	Older sibling: 258
+Process 304: parent 86
+	Immediate children: 334 
+	First child: 334
+	Older sibling: 260
+Process 305: parent 45
+	Immediate children: 315 
+	First child: 315
+	Older sibling: 65
+Process 306: parent 12
+	Younger sibling: 353
+	Older sibling: 272
+Process 307: parent 185
+Process 308: parent 229
+	Younger sibling: 388
+Process 309: parent 280
+	Immediate children: 411 
+	First child: 411
+	Younger sibling: 420
+Process 310: parent 144
+Process 311: parent 172
+	Younger sibling: 441
+Process 312: parent 121
+Process 313: parent 269
+	Younger sibling: 366
+Process 314: parent 85
+	Immediate children: 330 
+	First child: 330
+	Younger sibling: 407
+	Older sibling: 172
+Process 315: parent 305
+Process 316: parent 116
+	Immediate children: 371 
+	First child: 371
+	Older sibling: 174
+Process 317: parent 211
+Process 318: parent 268
+	Younger sibling: 321
+Process 319: parent 273
+Process 320: parent 84
+	Immediate children: 422 
+	First child: 422
+	Older sibling: 247
+Process 321: parent 268
+	Immediate children: 339 483 
+	First child: 339
+	Older sibling: 318
+Process 322: parent 92
+	Older sibling: 206
+Process 323: parent 78
+	Younger sibling: 402
+	Older sibling: 170
+Process 324: parent 222
+	Younger sibling: 463
+Process 325: parent 296
+	Immediate children: 357 449 
+	First child: 357
+	Younger sibling: 490
+Process 326: parent 79
+	Younger sibling: 392
+	Older sibling: 82
+Process 327: parent 209
+	Older sibling: 285
+Process 328: parent 191
+	Immediate children: 338 
+	First child: 338
+Process 329: parent 23
+	Immediate children: 348 
+	First child: 348
+	Older sibling: 295
+Process 330: parent 314
+Process 331: parent 183
+	Immediate children: 472 
+	First child: 472
+Process 332: parent 263
+Process 333: parent 39
+	Younger sibling: 438
+	Older sibling: 213
+Process 334: parent 304
+Process 335: parent 83
+	Older sibling: 293
+Process 336: parent 239
+	Younger sibling: 496
+Process 337: parent 140
+	Older sibling: 154
+Process 338: parent 328
+Process 339: parent 321
+	Immediate children: 344 
+	First child: 344
+	Younger sibling: 483
+Process 340: parent 106
+	Older sibling: 129
+Process 341: parent 70
+	Older sibling: 284
+Process 342: parent 26
+	Older sibling: 134
+Process 343: parent 110
+	Immediate children: 440 
+	First child: 440
+Process 344: parent 339
+Process 345: parent 81
+	Immediate children: 383 
+	First child: 383
+	Older sibling: 167
+Process 346: parent 42
+	Immediate children: 377 403 
+	First child: 377
+	Older sibling: 168
+Process 347: parent 217
+	Immediate children: 414 
+	First child: 414
+Process 348: parent 329
+Process 349: parent 40
+	Older sibling: 133
+Process 350: parent 21
+	Immediate children: 389 
+	First child: 389
+	Older sibling: 139
+Process 351: parent 31
+	Older sibling: 159
+Process 352: parent 254
+	Immediate children: 417 
+	First child: 417
+Process 353: parent 12
+	Younger sibling: 434
+	Older sibling: 306
+Process 354: parent 124
+Process 355: parent 260
+Process 356: parent 17
+	Immediate children: 396 
+	First child: 396
+	Younger sibling: 477
+	Older sibling: 62
+Process 357: parent 325
+	Immediate children: 444 
+	First child: 444
+	Younger sibling: 449
+Process 358: parent 227
+Process 359: parent 176
+Process 360: parent 207
+Process 361: parent 288
+Process 362: parent 214
+Process 363: parent 299
+Process 364: parent 221
+	Younger sibling: 404
+Process 365: parent 267
+Process 366: parent 269
+	Immediate children: 439 
+	First child: 439
+	Older sibling: 313
+Process 367: parent 71
+	Younger sibling: 482
+Process 368: parent 65
+	Younger sibling: 397
+Process 369: parent 87
+	Older sibling: 302
+Process 370: parent 63
+	Older sibling: 264
+Process 371: parent 316
+Process 372: parent 292
+	Immediate children: 451 473 
+	First child: 451
+	Younger sibling: 470
+Process 373: parent 252
+Process 374: parent 149
+	Immediate children: 391 
+	First child: 391
+	Younger sibling: 429
+	Older sibling: 278
+Process 375: parent 68
+	Older sibling: 193
+Process 376: parent 216
+Process 377: parent 346
+	Younger sibling: 403
+Process 378: parent 127
+	Younger sibling: 448
+	Older sibling: 163
+Process 379: parent 201
+	Immediate children: 479 
+	First child: 479
+Process 380: parent 139
+	Immediate children: 461 
+	First child: 461
+	Older sibling: 234
+Process 381: parent 118
+	Older sibling: 212
+Process 382: parent 157
+	Immediate children: 413 
+	First child: 413
+	Younger sibling: 390
+Process 383: parent 345
+Process 384: parent 155
+Process 385: parent 122
+	Immediate children: 398 
+	First child: 398
+Process 386: parent 58
+	Younger sibling: 418
+	Older sibling: 164
+Process 387: parent 32
+	Younger sibling: 437
+	Older sibling: 250
+Process 388: parent 229
+	Older sibling: 308
+Process 389: parent 350
+Process 390: parent 157
+	Older sibling: 382
+Process 391: parent 374
+Process 392: parent 79
+	Older sibling: 326
+Process 393: parent 51
+	Older sibling: 204
+Process 394: parent 258
+Process 395: parent 93
+	Older sibling: 269
+Process 396: parent 356
+Process 397: parent 65
+	Immediate children: 498 
+	First child: 498
+	Younger sibling: 474
+	Older sibling: 368
+Process 398: parent 385
+	Immediate children: 459 
+	First child: 459
+Process 399: parent 50
+	Older sibling: 202
+Process 400: parent 2
+	Immediate children: 452 
+	First child: 452
+	Younger sibling: 442
+	Older sibling: 209
+Process 401: parent 212
+Process 402: parent 78
+	Older sibling: 323
+Process 403: parent 346
+	Older sibling: 377
+Process 404: parent 221
+	Older sibling: 364
+Process 405: parent 34
+	Immediate children: 466 
+	First child: 466
+	Older sibling: 299
+Process 406: parent 173
+	Older sibling: 207
+Process 407: parent 85
+	Older sibling: 314
+Process 408: parent 247
+	Younger sibling: 421
+Process 409: parent 136
+	Younger sibling: 419
+Process 410: parent 59
+	Younger sibling: 424
+	Older sibling: 220
+Process 411: parent 309
+Process 412: parent 199
+	Older sibling: 217
+Process 413: parent 382
+Process 414: parent 347
+Process 415: parent 105
+Process 416: parent 46
+	Younger sibling: 467
+	Older sibling: 87
+Process 417: parent 352
+	Immediate children: 435 
+	First child: 435
+Process 418: parent 58
+	Older sibling: 386
+Process 419: parent 136
+	Older sibling: 409
+Process 420: parent 280
+	Immediate children: 456 
+	First child: 456
+	Older sibling: 309
+Process 421: parent 247
+	Older sibling: 408
+Process 422: parent 320
+Process 423: parent 130
+	Immediate children: 436 455 
+	First child: 436
+	Older sibling: 151
+Process 424: parent 59
+	Older sibling: 410
+Process 425: parent 295
+Process 426: parent 25
+	Immediate children: 469 
+	First child: 469
+	Older sibling: 112
+Process 427: parent 152
+Process 428: parent 56
+Process 429: parent 149
+	Immediate children: 454 
+	First child: 454
+	Older sibling: 374
+Process 430: parent 101
+	Older sibling: 253
+Process 431: parent 94
+	Older sibling: 181
+Process 432: parent 158
+	Older sibling: 226
+Process 433: parent 220
+	Immediate children: 481 
+	First child: 481
+Process 434: parent 12
+	Younger sibling: 457
+	Older sibling: 353
+Process 435: parent 417
+Process 436: parent 423
+	Younger sibling: 455
+Process 437: parent 32
+	Older sibling: 387
+Process 438: parent 39
+	Older sibling: 333
+Process 439: parent 366
+Process 440: parent 343
+Process 441: parent 172
+	Older sibling: 311
+Process 442: parent 2
+	Older sibling: 400
+Process 443: parent 76
+	Older sibling: 126
+Process 444: parent 357
+	Immediate children: 453 
+	First child: 453
+Process 445: parent 224
+Process 446: parent 171
+	Older sibling: 279
+Process 447: parent 166
+Process 448: parent 127
+	Older sibling: 378
+Process 449: parent 325
+	Older sibling: 357
+Process 450: parent 133
+Process 451: parent 372
+	Younger sibling: 473
+Process 452: parent 400
+Process 453: parent 444
+Process 454: parent 429
+Process 455: parent 423
+	Older sibling: 436
+Process 456: parent 420
+Process 457: parent 12
+	Older sibling: 434
+Process 458: parent 137
+	Older sibling: 210
+Process 459: parent 398
+Process 460: parent 237
+	Older sibling: 239
+Process 461: parent 380
+Process 462: parent 100
+	Older sibling: 190
+Process 463: parent 222
+	Immediate children: 499 
+	First child: 499
+	Older sibling: 324
+Process 464: parent 259
+	Immediate children: 491 
+	First child: 491
+Process 465: parent 264
+	Younger sibling: 495
+Process 466: parent 405
+Process 467: parent 46
+	Older sibling: 416
+Process 468: parent 148
+Process 469: parent 426
+Process 470: parent 292
+	Younger sibling: 480
+	Older sibling: 372
+Process 471: parent 170
+Process 472: parent 331
+Process 473: parent 372
+	Older sibling: 451
+Process 474: parent 65
+	Older sibling: 397
+Process 475: parent 143
+Process 476: parent 228
+Process 477: parent 17
+	Older sibling: 356
+Process 478: parent 145
+Process 479: parent 379
+Process 480: parent 292
+	Older sibling: 470
+Process 481: parent 433
+Process 482: parent 71
+	Older sibling: 367
+Process 483: parent 321
+	Older sibling: 339
+Process 484: parent 47
+	Older sibling: 254
+Process 485: parent 141
+	Younger sibling: 494
+	Older sibling: 268
+Process 486: parent 184
+	Older sibling: 188
+Process 487: parent 290
+Process 488: parent 189
+Process 489: parent 66
+	Older sibling: 231
+Process 490: parent 296
+	Older sibling: 325
+Process 491: parent 464
+Process 492: parent 135
+Process 493: parent 48
+	Older sibling: 241
+Process 494: parent 141
+	Older sibling: 485
+Process 495: parent 264
+	Older sibling: 465
+Process 496: parent 239
+	Older sibling: 336
+Process 497: parent 174
+Process 498: parent 397
+Process 499: parent 463
+Creation complete
+
+Destuction complete
+Elapsed time: 0.0 ms
+
+For 500 processes, struct of ints is faster than linked list by 0.0 ms.
