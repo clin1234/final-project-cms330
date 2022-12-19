@@ -1,10 +1,18 @@
 .PHONY: all
 
+COPTS = -Wall -Wextra -pedantic -fstack-protector-strong -fstack-clash-protection
+FSAN_ADD = "-fsanitize=address -fsanitize=pointer-compare \
+-fsanitize=pointer-subtract"
+FSAN_TH = -fsanitize=thread
+FSAN_LE = -fsanitize=leak
+FSAN_UN = -fsanitize=undefined
+FSAN_COMMON = -fsanitize-address-use-after-scope
+
 all:
-	gcc -Wall -Wextra -pedantic -std=c17 -o test main.c
+	gcc $(COPTS) -o test main.c
 	
 debug:
-	gcc -g -gdwarf-5 -Wall -Wextra -pedantic -std=c17 -o test main.c
+	gcc -g -gdwarf-5 $(COPTS) -o test main.c
 
 simulate_quiet: all
 	./test 500 -q > results500_q.txt
