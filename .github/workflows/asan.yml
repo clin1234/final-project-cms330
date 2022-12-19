@@ -14,5 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make
-      run: make COPTS="-fsanitize=address -fsanitize=pointer-compare \
--fsanitize=pointer-subtract" simulate
+      run: make COPTS="-fsanitize=address -fsanitize=pointer-compare -fsanitize=pointer-subtract" simulate
