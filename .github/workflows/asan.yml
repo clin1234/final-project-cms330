@@ -1,0 +1,18 @@
+name: ASAN
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: make
+      run: make COPTS="-fsanitize=address -fsanitize=pointer-compare \
+-fsanitize=pointer-subtract" simulate
